@@ -1,0 +1,25 @@
+# --- Ultralytics Specific ---
+runs/                 # Training results, logs, and plots
+datasets/             # Large images and labels
+weights/              # Manual weight backups
+*.pt                  # PyTorch weight files (YOLOv8/9/11 checkpoints)
+*.onnx                # Exported models
+*.engine              # TensorRT exported models
+*.pb                  # TensorFlow exported models
+
+# --- Data Caches ---
+*.cache               # Dataset label caches created by Ultralytics
+data.yaml             # Optional: Ignore if it contains absolute local paths
+
+# --- Python & Environment ---
+__pycache__/
+*.py[cod]
+*$py.class
+venv/                 # Local virtual environment
+.env                  # Environment variables (API keys for WandB, Comet, etc.)
+
+# --- System & IDE ---
+.DS_Store             # macOS system files
+.vscode/              # VS Code settings
+.idea/                # PyCharm settings
+
