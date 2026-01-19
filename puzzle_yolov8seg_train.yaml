@@ -1,0 +1,8 @@
+path: /home/tinmar/Desktop/Projects/Datasets/Puzzle/tiles/yolo_seg_training
+train: images/train
+val: images/val
+
+nc: 1
+names: ['puzzle_piece']
+
+
